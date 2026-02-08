@@ -1,0 +1,23 @@
+meta {
+  name: Join user
+  type: http
+  seq: 1
+}
+
+post {
+  url: http://localhost:3000/game/join
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "name": "k31"
+  }
+  
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}

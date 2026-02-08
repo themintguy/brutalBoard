@@ -1,0 +1,17 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(8, 40px);
+  gap: 4px;
+}
+
+.tile {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  background: #eee;
+}
+
+.tile.claimed {
+  cursor: not-allowed;
+}
