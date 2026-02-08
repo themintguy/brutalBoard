@@ -14,8 +14,7 @@ type Tile = {
 function App() {
   const [tiles, setTiles] = useState<Tile[]>([]);
   const [userId, setUserId] = useState<string | null>(null);
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  const [remainingMs, setRemainingMs] = useState(0);
+  const [remainingMs] = useState(0);
 
 
   useEffect(() => {
