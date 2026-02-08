@@ -1,0 +1,6 @@
+- pnpm
+- React + ts
+- CSS / Tailwind
+- socket.io
+- Node.js + express
+- PostgreSQL
